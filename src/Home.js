@@ -46,6 +46,7 @@ const Home = () => {
   return (
        
     <Container maxWidth="md">
+      <div>amitai</div>
       <Typography variant="h4" align="center" gutterBottom>
         אהלן וסאהלן
       </Typography>

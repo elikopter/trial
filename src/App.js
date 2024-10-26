@@ -16,7 +16,7 @@ const App = () => {
      <Route path="/quiz/:category" element={<Quiz />} />
      <Route path="/memory/:category" element={<MemoryGame />} />
      <Route path="/Notes/:category" element={<Notes />} />
-
+      
    </Routes>
        </Router>
    
