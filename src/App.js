@@ -8,22 +8,22 @@ import MemoryGame from './Memory';
 const App = () => {
   return (
  
-      
-   <Router>
-    
-   <Routes>
-     <Route path="/" element={<Home />} />
-     <Route path="/quiz/:category" element={<Quiz />} />
-     <Route path="/memory/:category" element={<MemoryGame />} />
-     <Route path="/Notes/:category" element={<Notes />} />
-      
-   </Routes>
-       </Router>
-   
+     <div>alo</div> 
   );
 };
 
 export default App;
 
 
- 
+ /*
+<Router>
+    
+<Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/quiz/:category" element={<Quiz />} />
+  <Route path="/memory/:category" element={<MemoryGame />} />
+  <Route path="/Notes/:category" element={<Notes />} />
+   
+</Routes>
+    </Router>
+    */
